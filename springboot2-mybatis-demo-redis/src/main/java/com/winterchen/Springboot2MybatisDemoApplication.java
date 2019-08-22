@@ -12,6 +12,5 @@ public class Springboot2MybatisDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Springboot2MybatisDemoApplication.class, args);
-		System.out.println("修改前");
 	}
 }
