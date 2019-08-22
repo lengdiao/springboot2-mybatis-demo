@@ -9,7 +9,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @MapperScan("com.winterchen.dao")
 @EnableTransactionManagement
 public class Springboot2MybatisDemoApplication {
-
+	/**
+	 * 下载前
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(Springboot2MybatisDemoApplication.class, args);
 	}
